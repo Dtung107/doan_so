@@ -13,23 +13,25 @@ package.domain = org.quaysogame
 source.dir = .
 
 # (list) Source files to include (process one by one)
-source.include_exts = py,kv,java,kt,png,jpg,gif,mp4,mp3,ttf,ttc
+source.include_exts = py,kv,png,jpg,gif,mp4,mp3,ttf,ttc
 
 # (str) Application versioning
 version = 1.0
 
 # (list) Application requirements
 # LƯU Ý: Đã bổ sung cython phiên bản 0.29.33 để tránh lỗi biên dịch C-extensions
-requirements = python3,kivy,pango,pandas,numpy
+requirements = python3,kivy,pango,pandas,numpy,cython==0.29.33
 
 # (str) Supported orientations
 orientation = portrait
 
-# -----------------------------------------------------------------------------
-# Android specific
-# -----------------------------------------------------------------------------
+# (str) Bootstrap to use
+p4a.bootstrap = sdl2
 
+# (str) Permissions
+android.permissions = INTERNET,WRITE_EXTERNAL_STORAGE,READ_EXTERNAL_STORAGE
 
+# (str) Android API to target
 android.api = 33
 
 android.sdk = 33
@@ -44,16 +46,10 @@ android.skip_update = False
 
 android.accept_sdk_license = True
 
-android.permissions = INTERNET
-
-# -----------------------------------------------------------------------------
 # Buildozer section
-# -----------------------------------------------------------------------------
 [buildozer]
 
-# (int) Log level (0 = error only, 1 = info, 2 = debug (with command output))
 log_level = 2
 
-# (int) Display warning if buildozer is run as root (0 = false, 1 = true)
 warn_on_root = 1
 
