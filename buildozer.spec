@@ -20,7 +20,7 @@ version = 1.0
 
 # (list) Application requirements
 # LƯU Ý: Đã bổ sung cython phiên bản 0.29.33 để tránh lỗi biên dịch C-extensions
-requirements = python3,kivy==2.3.0,cython==0.29.33
+requirements = python3,kivy,https://github.com/kivymd/KivyMD/archive/master.zip,materialyoucolor,exceptiongroup,asyncgui,asynckivy
 
 # (str) Supported orientations
 orientation = portrait
@@ -29,15 +29,16 @@ orientation = portrait
 # Android specific
 # -----------------------------------------------------------------------------
 
-# (int) Target Android API
-android.api = 33
 
-# (int) Minimum API supported
-android.minapi = 21
+android.api = 34
 
-# (str) Android NDK version to use
+android.sdk = 34
 
-android.ndk = 25b
+android.minapi = 28
+
+android.ndk_api = 28
+
+android.ndk = 25c
 
 # (bool) Use --skip-update-argument to skip p4a's android update
 android.skip_update = False
