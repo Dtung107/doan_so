@@ -42,8 +42,6 @@ android.ndk = 25c
 
 android.skip_update = False
 
-android.Accept SDK license automatically
-
 android.accept_sdk_license = True
 
 android.permissions = INTERNET
