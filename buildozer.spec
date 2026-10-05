@@ -13,14 +13,14 @@ package.domain = org.quaysogame
 source.dir = .
 
 # (list) Source files to include (process one by one)
-source.include_exts = py,png,jpg,kv,atlas
+source.include_exts = py,kv,java,kt,png,jpg,gif,mp4,mp3,ttf,ttc
 
 # (str) Application versioning
 version = 1.0
 
 # (list) Application requirements
 # LƯU Ý: Đã bổ sung cython phiên bản 0.29.33 để tránh lỗi biên dịch C-extensions
-requirements = python3,kivy,https://github.com/kivymd/KivyMD/archive/master.zip,materialyoucolor,exceptiongroup,asyncgui,asynckivy
+requirements = python3,kivy,pango,pandas,numpy
 
 # (str) Supported orientations
 orientation = portrait
