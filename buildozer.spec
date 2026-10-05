@@ -37,12 +37,13 @@ android.minapi = 21
 
 # (str) Android NDK version to use
 # Để trống hoặc dùng bản stable chuẩn số để Buildozer tự động quản lý tốt nhất
-android.ndk = 25.2.9519653
+android.ndk = 25c
 
 # (bool) Use --skip-update-argument to skip p4a's android update
 android.skip_update = False
 
 # (bool) Accept SDK license automatically
+android.Accept SDK license automatically
 android.accept_sdk_license = True
 
 # (list) Permissions
