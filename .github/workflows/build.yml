@@ -1,1 +1,39 @@
-
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            build-essential \
+            git \
+            zip \
+            unzip \
+            openjdk-17-jdk \
+            python3-pip \
+            python3-setuptools \
+            python3-wheel \
+            libgl1-mesa-dev \
+            libgles2-mesa-dev \
+            zlib1g-dev \
+            libsqlite3-dev \
+            libbz2-dev \
+            libreadline-dev \
+            libffi-dev \
+            libssl-dev \
+            libncurses5-dev \
+            libncursesw5-dev \
+            libtinfo6 \
+            libgdbm-dev \
+            libdb5.3-dev \
+            libexpat1-dev \
+            liblzma-dev \
+            autoconf \
+            libtool \
+            pkg-config \
+            libsdl2-dev \
+            libsdl2-image-dev \
+            libsdl2-mixer-dev \
+            libsdl2-ttf-dev \
+            libportmidi-dev \
+            libswscale-dev \
+            libavformat-dev \
+            libavcodec-dev \
+            lld
