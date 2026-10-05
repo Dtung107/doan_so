@@ -47,7 +47,7 @@ jobs:
             libssl-dev \
             libncurses5-dev \
             libncursesw5-dev \
-            libtinfo5 \
+            libtinfo6 \
             libgdbm-dev \
             libdb5.3-dev \
             libexpat1-dev \
