@@ -30,17 +30,16 @@ orientation = portrait
 # -----------------------------------------------------------------------------
 
 
-android.api = 34
+android.api = 33
 
-android.sdk = 34
+android.sdk = 33
 
-android.minapi = 28
+android.minapi = 21
 
-android.ndk_api = 28
+android.ndk_api = 21
 
 android.ndk = 25c
 
-# (bool) Use --skip-update-argument to skip p4a's android update
 android.skip_update = False
 
 # (bool) Accept SDK license automatically
