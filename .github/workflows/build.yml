@@ -33,6 +33,7 @@ jobs:
             git \
             zip \
             unzip \
+            p7zip-full \
             openjdk-17-jdk \
             python3-pip \
             python3-setuptools \
